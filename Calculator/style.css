@@ -1,0 +1,55 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    overflow: hidden;
+
+}
+table{
+    border:  20px solid grey;
+    border-collapse: collapse;
+
+
+}
+.heading{
+    padding:  30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+th{
+    border: none;
+}
+td{
+    padding: 10px;
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(198, 208, 218);
+}
+td span{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+
+#screen-row .screen span{
+    display: flex;
+    justify-content: flex-end;
+}
+.operation{
+    background-color: rgb(49, 50, 53);
+    color: white;
+}
+td:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+}
+.screen:hover{
+    background-color: rgb(198, 208, 218);
+}
